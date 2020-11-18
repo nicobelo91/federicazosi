@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 242, 230, 0.8),
+      rgba(255, 189, 128, 0.8)
+    ),
+      url("white.png");
+      background-size: cover;
+      height: 100%;
+      }
+      
+
+  h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .navbar, .home-callout {
+    /* Gradient provided by @_ighosh at uiGradients.com */
+    background: #f46b45;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  .navbar {
+    border: none;
+  }
+
+  
+  .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  .navbar-default .navbar-toggle {
+    border: 2px solid white;
+  }
+  
+  .actividades {
+    margin-top: 50px;
+  }
+  
+  .actividades h2 {
+    color: #8a118a;
+  }
+  
+  .actividades p {
+    color: #87891a;
+  }
+  
+  .actividades h4 {
+    color: #ff791e;
+  }
