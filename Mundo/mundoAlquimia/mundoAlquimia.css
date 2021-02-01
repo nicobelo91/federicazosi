@@ -1,0 +1,184 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(164, 193, 113, 0.5),
+    rgb(113, 142, 62, 0.5)
+  ),
+    url("../../fotos/fondo5.jpg");
+      background-size: cover;
+      height: 100%;
+      }
+
+  p {
+    text-align: center;  
+  }
+      
+  .construction {
+    padding-top: 100px;
+      }
+      
+  .icon {
+    text-align: center;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px black;
+    padding: 0.5em 0.6em;
+  
+  }
+  
+  .contact-icons {
+    padding-top: 50px;
+  }
+  
+
+  h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .navbar, .home-callout {
+    /* Gradient provided by @_ighosh at uiGradients.com */
+    background: #718e3e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#a4c171, #718e3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#a4c171,#718e3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  .navbar {
+    border: none;
+  }
+
+  
+  .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  .navbar-default .navbar-toggle {
+    border: 2px solid white;
+  }
+  
+  .home-callout {
+    color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+  }
+
+  .principal-text {
+    display: block;
+    font-size: 20px;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+
+  }
+
+  #mycheckbox:checked ~ .moretext {
+    display: block;
+  }
+
+  #mycheckbox:checked ~ .showmore {
+    display: none;
+  }
+  
+  .moretext{
+    display: none;
+  }
+  
+  #mycheckbox {
+    display: none;
+  }
+  .showmore {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+  }
+
+  .texto {
+    background-color:rgba(255, 255, 255, 0.3);
+    margin-bottom: 0%
+  }
+
+  #borderimgmayan { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(/federicaNuevo/fotos/mayas/guardaMaya.jpg) 30 round;
+  }
+
+  .navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+    background-color:#a4c171;
+    cursor:pointer;
+}
+.dropdown-submenu {
+    position:relative;
+    cursor:pointer;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+    cursor:pointer;
+    
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+    background-color: #a4c171;
+    cursor:pointer;
+} 
+
+.dropdown-submenu > a:focus, .dropdown-submenu > a:hover, .dropdown-submenu:focus>a, r, .dropdown-submenu:hover>a,
+.dropdown-menu > li a:hover,
+.dropdown-menu > li a:focus {
+   background-color: #718e3e; 
+  } 
+
+  #more {display: none;}
+
+  #myBtn {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+.titles {
+  padding-bottom: 20px;
+  font-weight: bold;
+} 
+.titles:hover, .titles:active {
+  background: #a4c171;
+  transition: .4s ease;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;  
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 30px);
+    grid-template-areas: 
+    "header1"  
+    "header2"
+  }
+  .titles {
+    text-align: start;
+  }
+}

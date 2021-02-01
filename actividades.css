@@ -1,13 +1,4 @@
-body {
-    background-image: linear-gradient(
-      to right,
-      rgba(255, 242, 230, 0.8),
-      rgba(255, 189, 128, 0.8)
-    ),
-      url("white.png");
-      background-size: cover;
-      height: 100%;
-      }
+
       
 
   h1, h2, h3 {
@@ -16,9 +7,9 @@ body {
 
   .navbar, .home-callout {
     /* Gradient provided by @_ighosh at uiGradients.com */
-    background: #f46b45;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #718e3e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#a4c171, #718e3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#a4c171,#718e3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   }
   .navbar {
@@ -42,7 +33,7 @@ body {
     margin-top: 50px;
   }
   
-  .actividades h2 {
+  .actividades h2, .actividades h5 {
     color: #8a118a;
   }
   
@@ -53,3 +44,34 @@ body {
   .actividades h4 {
     color: #ff791e;
   }
+
+  .navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+    background-color: #a4c171;
+    cursor:pointer;
+}
+.dropdown-submenu {
+    position:relative;
+    cursor:pointer;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+    cursor:pointer;
+    
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+    background-color: #a4c171;
+    cursor:pointer;
+} 
+
+.dropdown-submenu > a:focus, .dropdown-submenu > a:hover, .dropdown-submenu:focus>a, r, .dropdown-submenu:hover>a,
+.dropdown-menu > li a:hover,
+.dropdown-menu > li a:focus {
+   background-color: #718e3e; 
+  } 
