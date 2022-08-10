@@ -190,27 +190,6 @@ body {
     "header3"
     "header4"
     "header5"
-    "header6"
-  }
-
-  .header-numerologia {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 30px);
-    grid-template-areas: 
-    "header1"  
-    "header2"
-  }
-
-  .header-tarots {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 30px);
-    grid-template-areas: 
-    "header1"  
-    "header2"
-    "header3"
-    "header4"
   }
   .titles {
     text-align: start;
